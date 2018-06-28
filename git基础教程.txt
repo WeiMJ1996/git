@@ -3,6 +3,7 @@ git add 添加到暂存区仓库（可以多次添加，然后一起提交）
 git commit -m "..." 提交到仓库分支
 git status 查看状态
 git log 查看操作日志
+提交后，用git diff HEAD -- <file>命令可以查看工作区和版本库里面最新版本的区别
 git reset --hard HEAD^ 回退到上一版本
 git reset --hard jfdj(版本号) 回退到指定版本号
 git reflog 记录每一次命令
